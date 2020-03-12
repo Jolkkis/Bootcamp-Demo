@@ -98,7 +98,7 @@ export default function NavBar(props) {
                      </li>
 
                      <li class="nav-item">
-                    <a href="/fruits" class="nav-link">
+                    <a href="/login" class="nav-link">
                     <svg 
                         aria-hidden="true" 
                         focusable="false" 

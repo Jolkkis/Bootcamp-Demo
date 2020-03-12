@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Osto from "./Components/Cars";
 import Myynti from "./Components/AddCar";
+import Login from "./Components/Login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/" component = {Home}/>
             <Route path = "/osto"><Osto/></Route>
             <Route path = "/myynti"><Myynti/></Route>
+            <Route path="/login" exact component={Login} />
             <Route render = { () => "404 - Not Found!"}/>
          </Switch>
          <Footer/>
