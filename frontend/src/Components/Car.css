@@ -1,0 +1,33 @@
+.cars > * {
+    background-color: white;
+    border-radius:5%;
+    border: black 1.5px solid;
+    margin: 7px;
+    text-align: center;
+    line-height: 5em;
+    width: 5em;
+    height:5em;
+    float:left;
+    transition: all .5s ease-out;
+    font-size:16px;
+    
+  }
+  .cars > *:hover {
+    font-size:18px;
+    cursor: pointer;
+        
+    }
+  a {
+    color: white;
+  }
+  a:visited {
+    color: lightgray;
+  }
+  a:hover, a:active, a:focus {
+    color:black;
+  }
+  
+  .cars .ford {background-color: darkblue; color: white;}
+  .cars .honda {background-color: gray; color:black;}
+  .cars .skoda {background-color: rgb(82, 20, 44); color: white;}
+  .cars .volvo {background-color: green; color: white;}
