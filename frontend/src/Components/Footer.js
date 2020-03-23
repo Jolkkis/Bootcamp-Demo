@@ -8,9 +8,10 @@ export default function Footer(props) {
         <body className =" Footer ">
         <footer >
             <h1 className="FTitle">Contact</h1>
-            <p className="FContent">Tomi Jolkkonen: +358445013417</p>
-            <p className="FContent">tomi.j.jolkkonen@gmail.com</p>
-
+            <p className="FContent">Nimi, Sukunimi Puhelin</p>
+            <p className="FContent">Sähköposti</p>
+            <p className="FContent">Sosiaalinen media</p>
+            <p/>
         </footer>
         </body>
     </html>

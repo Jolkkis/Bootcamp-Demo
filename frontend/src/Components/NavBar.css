@@ -1,15 +1,16 @@
 :root {
     font-family: 'Open Sans';
-    --text-primary: #ffffff;
-    --text-secondary: #000000;
-    --bg-primary: #000000;
-    --bg-secondary: #e49400;
+    --text-primary: #e7dfdd;
+    --text-secondary: #0e0B16;
+    --bg-primary: #0e0B16;
+    
+    --bg-secondary: #e7dfdd;
     --transition-speed: 600ms;
   }
   
   body {
-    color: black;
-    background-color: white;
+    color: #0e0B16;
+    background-color: #e7dfdd;
     margin: 0;
     padding: 0;
     
@@ -91,11 +92,11 @@
   }
   
   .fa-primary {
-    color: rgb(247, 4, 4);
+    color: red;
   }
   
   .fa-secondary {
-    color: rgb(0, 0, 0);
+    color:#0e0B16;
   }
   
   .fa-primary,
@@ -166,6 +167,7 @@
   
     .navbar:hover {
       width: 18em;
+      background-color: #0e0B16;
     }
   
     .navbar:hover .link-text {
