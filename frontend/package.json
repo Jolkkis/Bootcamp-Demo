@@ -17,10 +17,12 @@
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
     "react-file-base64": "^1.0.3",
+    "react-html-email": "^3.0.0",
     "react-responsive-carousel": "^3.1.51",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "react-tap-event-plugin": "^3.0.3"
+    "react-tap-event-plugin": "^3.0.3",
+    "tmp": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

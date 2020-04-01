@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Works from "./Components/Works";
+import Contact from "./Components/Contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Switch>
             <Route exact path="/" component = {Home}/>
             <Route path="/works"><Works /></Route>
+            <Route path="/contact"><Contact /></Route>
             <Route render = { () => "404 - Not Found!"}/>
          </Switch>
          <Footer/>
